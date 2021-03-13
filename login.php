@@ -2,8 +2,12 @@
     $henshu = 5;
 
     //変数の定義
-    $correct_user_name = "benson";
-    $correct_password = "wr2k";
+    $correct_user_name = "funcys";
+    $correct_password = "1234";
+
+    //ここで、DBにユーザー名とパスワードが登録されているか、確認する処理を行う
+
+
 
     $input_user_name = $_POST['user_name'];
     $input_password = $_POST['password'];
